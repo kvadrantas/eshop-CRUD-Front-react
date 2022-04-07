@@ -66,7 +66,7 @@ const [error, setError] = useState('');
     })
 
     useEffect(() => {
-        axios.get('http://eshop-crud-backedn-react.onrender.com/statistics')
+        axios.get('https://eshop-crud-backedn-react.onrender.com/statistics')
             .then(res => {
                 setStats(res.data);
                 // console.log(res.data);
